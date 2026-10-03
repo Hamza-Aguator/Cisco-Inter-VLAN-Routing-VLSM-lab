@@ -19,11 +19,11 @@ Inter-VLAN Routing (Router-on-a-Stick) and VLSM Subnetting lab built on Cisco Pa
 ---
 
 ## 🛠️ Tasks & Configuration Highlights
-1. **VLSM Address Calculation:** Subnetted `10.0.0.0/8` using variable-length subnet masks (`/25`, `/26`, `/27`, `/28`) to fit department host requirements.
-2. **VLAN Creation & Access Port Allocation:** Created VLANs 10, 20, 30, and 90 across all switches and assigned end devices to their respective ports.
+1. **VLSM Address Calculation:** Subnetted `10.0.0.0/8` using variable-length subnet masks (`/25`, `/26`, `/27`, `/28`) to fit department host requirements[cite: 4].
+2. **VLAN Creation & Access Port Allocation:** Created VLANs 10, 20, 30, and 90 across all switches and assigned end devices to their respective ports[cite: 4].
 3. **802.1Q Trunking & Native VLAN:** Configured trunking on inter-switch links with **VLAN 90** set as the Native VLAN[cite: 4, 6].
-4. **Router-on-a-Stick (ROAS):** Configured sub-interfaces on Router R1 (`Gig0/0/0.10`, `.20`, `.30`, `.90`) using `encapsulation dot1Q` for inter-VLAN routing.
-5. **Switch SVI & Telnet Security:** Configured management IP addresses on switch SVIs (VLAN 90) and set up VTY lines for remote access.
+4. **Router-on-a-Stick (ROAS):** Configured sub-interfaces on Router R1 (`Gig0/0/0.10`, `.20`, `.30`, `.90`) using `encapsulation dot1Q` for inter-VLAN routing[cite: 5].
+5. **Switch SVI & Telnet Security:** Configured management IP addresses on switch SVIs (VLAN 90) and set up VTY lines for remote access[cite: 8].
 
 ---
 
